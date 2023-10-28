@@ -49,4 +49,7 @@ function TOTAL(){
     document.getElementById("xxx").innerText= TOTAL5 + ('fr')
     
 }
+ function remove(toto){
+      toto.parentElement.parentElement.remove()
+    }
 
