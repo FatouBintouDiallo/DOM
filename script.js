@@ -20,7 +20,7 @@ function checknumber(){
     console.log(quantite)
     let total3= pri*quantite1;
     document.getElementById('TOTAL3').innerText = total3 + ('fr')
-   
+    TOTAL()
 }
 function TOTAL(){
     let prix = +document.getElementById('pu').innerText.split(' ')[0]
@@ -47,6 +47,20 @@ function TOTAL(){
     let TOTAL5 = total + total2 + total3
     console.log(TOTAL5)
     document.getElementById("xxx").innerText= TOTAL5 + ('fr')
-    
 }
+    function remove(toto){
+      toto.parentElement.parentElement.remove()
+    }
+    function lisk(toto){
+    }
+
+
+
+
+
+
+
+
+
+
 

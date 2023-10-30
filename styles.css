@@ -341,8 +341,10 @@ html, body {
 }
 i {
     margin-left: 15px ;
-
+    color: #EB5757;
+    cursor: pointer;
 }
 .changeToRed{
     color: red;
 }
+
